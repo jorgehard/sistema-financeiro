@@ -1,0 +1,178 @@
+body{
+	background: url(../imagens/background-teste.png) repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index:1;
+	width:100%;
+	height:100%;
+}
+html{
+	height:100%;
+	width:100%;
+}
+.background-color{
+	background:#000;
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	opacity:0.7;
+}
+/*--------------------------*/
+	/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	height: 20px;
+	width: 20px;
+	border:1px solid #CCD1D9;
+	border-radius:5px;
+	background-color: #FFF;
+}
+
+.container:hover input ~ .checkmark {
+	background-color: #cce0da;
+}
+
+.container input:checked ~ .checkmark {
+	background-color: #CCC;
+}
+.container .titulo{
+	font-size:11px;
+	position:relative;
+	bottom:5px;
+	color:rgba(0,0,0,0.5);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 7px;
+  top: 4.5px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*--------------------------*/
+.form-signin-2 {
+	max-width: 380px;
+	height:100%;
+	margin: 0 auto;
+	margin-top:10px;
+	padding:18px;
+	border-radius:8px;
+ 	color: rgba(0,0,0,0.5);
+}
+.form-signin-2 .formHeader{
+	text-align:center;
+	font-family: 'Lobster', sans-serif;
+	color:#000;
+	margin-bottom:20px;
+	padding:10px 0px;
+}
+.form-signin-2 .box-form{
+	background:#E8E8E8;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	padding:30px;
+}
+.form-signin-2 input[type="text"] {
+	height:40px;
+	border:none;
+}
+
+.form-signin-2 input[type="password"] {
+	margin-bottom: 5px;
+	height:40px;
+ 	border:none;
+
+}
+.form-signin-2 input[type="submit"] {
+	margin-bottom: 5px;
+	height:40px;
+	border:none;
+	background: #F5AD3B;
+	background: -moz-linear-gradient(top, #F5AD3B 0%, #ea8100 100%);
+	background: -webkit-linear-gradient(top, #F5AD3B 0%,#ea8100 100%);
+	background: linear-gradient(to bottom, #F5AD3B 0%,#ea8100 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5AD3B', endColorstr='#ea8100',GradientType=0 );
+}
+.form-signin-2 input[type="submit"]:hover {
+	background: #F5AD3B !important;
+}
+
+.form-signin-2 .remember-me{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:12px;
+}
+
+.footer-login{
+	text-align:center; 
+	position:absolute; 
+	bottom:0px; 
+	padding:20px; 
+	width:100%; 
+	opacity:0.5; 
+	font-size:11px; 
+	color:#f3f3f3; 
+	letter-spacing:1.5px;
+}
+@media only screen and (max-width: 768px) {
+	body, html{
+		height:auto;
+		width:100%;
+	}
+	.form-signin-2 {
+		width:100%;
+		height:500px;
+	}
+	.footer-login {
+		text-align:center; 
+		position:absolute; 
+		bottom:0px; 
+		padding:20px; 
+		width:100%; 
+		opacity:0.5; 
+		font-size:11px; 
+		color:#f3f3f3; 
+		letter-spacing:1.5px;
+	}
+}

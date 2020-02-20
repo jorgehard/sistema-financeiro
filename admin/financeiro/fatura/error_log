@@ -1,0 +1,26 @@
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: id_nota in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 24
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 24
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 24
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 24
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 25
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: numero in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: razao_social in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: cnpj in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: recebimento in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: endereco in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: bairro in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: cep in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: cidade in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: uf in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: telefone in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: ins_estadual in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 32
+[25-Apr-2019 10:15:36 America/Sao_Paulo] PHP Notice:  Undefined variable: numero in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 35
+[12-May-2019 01:14:34 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 31
+[13-May-2019 11:04:14 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 31
+[14-May-2019 11:00:30 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 31
+[14-May-2019 11:02:42 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 31
+[15-May-2019 17:49:54 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 31
+[15-May-2019 17:50:10 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 31
+[15-May-2019 17:50:50 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 31
+[21-May-2019 21:27:17 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';' in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 44
+[21-May-2019 21:27:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';' in /home/polemica/public_html/financeiro/admin/financeiro/fatura/fatura.php on line 44

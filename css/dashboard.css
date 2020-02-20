@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+html, body{
+	width:100%;
+	height:100%;
+	background:#E0E0E0;
+}
+.box-body {
+	-webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+.button-top-box{
+	color:#7F7F7F; 
+	margin-right:15px;
+}
+.button-top-box:hover{
+	color:#333;
+}
+.informativo{
+	font-size:13px;
+	color:rgba(0,0,0,0.7);
+	background:url('../imagens/marcadagua-litoralrent.png') no-repeat center center;
+	background-size:50%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.informativo h5{
+	font-weight:bold;
+	text-decoration:underline;
+	color:#333;
+	font-size:12px;
+}
+.informativo .underline{
+	text-decoration:underline;
+}
+.informativo ul li{
+	margin: 10px;
+}
+/***********************************************/
+/***************** NAV PILLS *******************/
+/***********************************************/
+.nav-pills2 {
+	background:#F3F3F3;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.nav-pills2 a{
+	text-align:center;
+	color:#333;
+}
+.nav-pills2 li:hover{
+	color:#333;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	background:#d6d6d6 !important;
+	font-weight:bold;
+	
+}
+.nav-pills2 li{
+	list-style-type:none;
+	padding:10px;
+}
+.nav-pills2{
+	border-bottom:1px solid #CCC;
+	padding:0px;
+	font-size:12px;
+}
+.activeb{
+	color:#333;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	background:#CCC;
+	font-weight:bold;
+}
+
+.well, .panel-default{
+	background:#FFF !important;
+}
+
+.table-color tr {
+	background-color: #FFF;
+}
+.table-color thead tr {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}
+.table-color tr:nth-child(even) {background-color: #f2f2f2;}
+/* --------- TABELA AMARELA ----------------- */
+.table-yellow td, .table-yellow th {
+	border:1px solid #f7ecb5 !important;
+}
+.table-yellow tr {
+	background-color: #FFF;
+	border:1px solid ##f7ecb5 !important;
+}
+.table-yellow thead tr {
+	background: rgb(249,223,169);
+	background: -moz-linear-gradient(top, rgba(249,223,169,1) 0%, rgba(249,223,169,1) 50%, rgba(249,214,144,1) 51%, rgba(250,235,204,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(249,223,169,1) 0%,rgba(249,223,169,1) 50%,rgba(249,214,144,1) 51%,rgba(250,235,204,1) 100%);
+	background: linear-gradient(to bottom, rgba(249,223,169,1) 0%,rgba(249,223,169,1) 50%,rgba(249,214,144,1) 51%,rgba(250,235,204,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9dfa9', endColorstr='#faebcc',GradientType=0 );
+}
+.table-yellow tr:nth-child(even) {background-color: #fffbce;}
+
+/* --------- TABELA VERDE ----------------- */
+.table-green td, .table-green th {
+	border:1px solid #D6E9C6 !important;
+}
+.table-green tr {
+	background-color: #FFF;
+	border:1px solid #D6E9C6 !important;
+}
+.table-green thead tr {
+	background: rgb(212,237,201);
+	background: -moz-linear-gradient(top, rgba(212,237,201,1) 1%, rgba(223,240,216,1) 51%, rgba(212,237,201,1) 54%, rgba(212,237,201,1) 54%, rgba(223,240,216,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(212,237,201,1) 1%,rgba(223,240,216,1) 51%,rgba(212,237,201,1) 54%,rgba(212,237,201,1) 54%,rgba(223,240,216,1) 100%);
+	background: linear-gradient(to bottom, rgba(212,237,201,1) 1%,rgba(223,240,216,1) 51%,rgba(212,237,201,1) 54%,rgba(212,237,201,1) 54%,rgba(223,240,216,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4edc9', endColorstr='#dff0d8',GradientType=0 );
+}
+.table-green tr:nth-child(even) {background-color: #F0F2EF;}
+.table-green tr:nth-child(odd) {background-color: #FFF;}
+
+/* --------- TABELA AZUL ----------------- */
+.table-blue td, .table-blue th {
+	border:1px solid #BCE8F1 !important;
+}
+.table-blue tr {
+	background-color: #FFF;
+	border:1px solid #BCE8F1 !important;
+}
+.table-blue thead tr {
+	background: rgb(217,237,247);
+	background: -moz-linear-gradient(top, rgba(217,237,247,1) 0%, rgba(217,237,247,1) 52%, rgba(188,232,241,1) 52%, rgba(188,232,241,1) 52%, rgba(188,232,241,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(217,237,247,1) 0%,rgba(217,237,247,1) 52%,rgba(188,232,241,1) 52%,rgba(188,232,241,1) 52%,rgba(188,232,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(217,237,247,1) 0%,rgba(217,237,247,1) 52%,rgba(188,232,241,1) 52%,rgba(188,232,241,1) 52%,rgba(188,232,241,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9edf7', endColorstr='#bce8f1',GradientType=0 );
+}
+.table-blue tr:nth-child(even) {background-color: #FFF;}
+.table-blue tr:nth-child(odd) {background-color: #e8f7f5; }
+/************************************************************/
+/******************* FORMULARIOS INPUT **********************/
+/************************************************************/
+ul.ui-autocomplete { 
+	border: 1px solid #CCC; 
+	background: #FFF; 
+	width: 600px; 
+	padding: 5px; 
+	height: 350px; 
+	overflow: auto; 
+	z-index: 999999; 
+}
+li.ui-menu-item { 
+	list-style: none; 
+	cursor: pointer; 
+	font-size: 12px;
+	border-bottom: 1px solid #CCC; 
+} 
+	.formulario-normal label{
+		width:100% !important;
+	}
+	.formulario-normal .ui-autocomplete-input { 
+		padding: 1px; 
+		border-radius:4px; 
+		background: #FFF; 
+		width:90%; 
+		height:30px; 
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075); 
+		border-top-right-radius:0px;
+		border-bottom-right-radius:0px;
+	} 
+	.formulario-normal .ui-button{ 
+		background:#ECEBE9; 
+		height:30px;
+		width:9%;
+		border-radius:4px; 
+		position: relative; 
+		bottom:2px;
+		border-top-left-radius:0px;
+		border-bottom-left-radius:0px;
+		border: 1px solid #ECEBE9 !important;
+	}
+	.formulario-normal .ui-button:before { 
+		content: "\f0c9"; font-family: FontAwesome; 
+		font-style: normal; 
+		font-weight: normal; 
+		text-decoration: inherit; 
+		color: #6899B1; 
+		padding:5px 0px 5px 5px; 
+		position: absolute; 
+		top: 2.5px; 
+		left: 2.5px; 
+	}
+	.formulario-normal .ui-helper-hidden-accessible { display:none; }
+	.formulario-normal ul.ui-autocomplete { 
+		border: 1px solid #CCC !important;  
+		background: #FFF !important;  
+		width: 600px !important;  
+		padding: 5px !important;  
+		height: 150px !important;  
+		overflow: auto !important;  
+		z-index: 999999 !important; 
+	}
+	.formulario-normal li.ui-menu-item { 
+		list-style: none !important;
+		cursor: pointer !important;
+		font-size: 12px !important; 
+		border-bottom: 1px solid #CCC !important; 
+	} 
+
+	/*------------- FORMULARIO INFO (NOTA)------------------*/
+	.formulario-info label{
+		width:100% !important;
+	}
+	.formulario-info input, .formulario-info select, .formulario-info textarea{
+		border:1px solid #e5dfd7;
+		box-shadow: none;
+		font-family: 'Comfortaa', cursive;
+		color:#000;
+		height:40px;
+		border-radius:1px;
+	}
+	.formulario-info input:disabled,
+	.formulario-info select:disabled {
+		background: #e9f5fa !important;
+		border:1px solid #e5dfd7;
+		opacity:0.5;
+	}
+	.formulario-info .ui-autocomplete-input { 
+		padding: 1px; 
+		border:1px solid #e5dfd7;
+		border-radius:1px; 
+		background: #FFF; 
+		width:90%; 
+		height:40px; 
+		border-top-right-radius:0px;
+		border-bottom-right-radius:0px;
+	} 
+	.formulario-info .ui-button{ 
+		background:#DADADA; 
+		height:40px;
+		width:9%;
+		border-radius:5px; 
+		position: relative; 
+		bottom:1px;
+		border-top-left-radius:0px;
+		border-bottom-left-radius:0px;
+		border: 1px solid #DADADA !important;
+	}
+	.formulario-info .ui-button:before { 
+		content: "\f0c9"; font-family: FontAwesome; 
+		font-style: normal; 
+		font-weight: normal; 
+		text-decoration: inherit; 
+		color: #333; 
+		padding:5px 0px 5px 5px; 
+		position: absolute; 
+		top: 8px; 
+		left: 8px; 
+	}
+	/*------------- FORMULARIO INFO (AZUL) ------------------*/
+	.formulario-info2 label{
+		width:100% !important;
+	}
+	.formulario-info2 input, .formulario-info2 select, .formulario-info2 textarea{
+		border:1px solid #B6E6EE;
+		box-shadow: none;
+		font-family: 'Comfortaa', cursive;
+		color:#000;
+		height:40px;
+		border-radius:1px;
+	}
+	.formulario-info2 input[readonly],
+	.formulario-info2 input:disabled,
+	.formulario-info2 select:disabled {
+		background: #def6fc !important;
+		border:1px solid #B6E6EE;
+		opacity:0.5;
+	}
+	.formulario-info2 .ui-autocomplete-input2 { 
+		padding: 1px; 
+		border:1px solid #B6E6EE;
+		border-radius:1px; 
+		background: #FFF; 
+		width:90%; 
+		height:40px; 
+		border-top-right-radius:0px;
+		border-bottom-right-radius:0px;
+	} 
+	.formulario-info2 .ui-button{ 
+		background:#DADADA; 
+		height:40px;
+		width:9%;
+		border-radius:5px; 
+		position: relative; 
+		bottom:1px;
+		border-top-left-radius:0px;
+		border-bottom-left-radius:0px;
+		border: 1px solid #DADADA !important;
+	}
+	.formulario-info2 .ui-button:before { 
+		content: "\f0c9"; font-family: FontAwesome; 
+		font-style: normal; 
+		font-weight: normal; 
+		text-decoration: inherit; 
+		color: #333; 
+		padding:5px 0px 5px 5px; 
+		position: absolute; 
+		top: 8px; 
+		left: 8px; 
+	}
+	/*------------- FORMULARIO WARNING ------------------*/
+	.formulario-warning label{
+		width:100% !important;
+	}
+	.formulario-warning input, .formulario-warning select, .formulario-warning textarea{
+		border: 1px solid #faebcc !important;
+		box-shadow: none !important;
+		font-family: 'Comfortaa', cursive !important;
+	}
+	.formulario-warning input:disabled,
+	.formulario-warning select:disabled {
+		background: #fff9e0 !important;
+		border: 1.5px solid #faebcc !important;
+		opacity:0.5;
+	}
+	.formulario-warning .ui-autocomplete-input { 
+		padding: 1px; 
+		border-radius:4px; 
+		background: #FFF; 
+		width:90%; 
+		height:30px; 
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075); 
+		border-top-right-radius:0px;
+		border-bottom-right-radius:0px;
+	} 
+	.formulario-warning .ui-button{ 
+		background:#faebcc; 
+		height:30px;
+		width:9%;
+		border-radius:4px; 
+		position: relative; 
+		bottom:1px;
+		border-top-left-radius:0px;
+		border-bottom-left-radius:0px;
+		border: 1px solid #faebcc !important;
+	}
+	.formulario-warning .ui-button:before { 
+		content: "\f0c9"; font-family: FontAwesome; 
+		font-style: normal; 
+		font-weight: normal; 
+		text-decoration: inherit; 
+		color: #d8b363; 
+		padding:5px 0px 5px 5px; 
+		position: absolute; 
+		top: 2.5px; 
+		left: 2.5px; 
+	}
+	
+	
+	.formulario-warning .ui-helper-hidden-accessible { display:none; }
+	.formulario-warning ul.ui-autocomplete { 
+		border: 1px solid #CCC; 
+		background: #FFF; 
+		width: 600px; 
+		padding: 5px; 
+		height: 150px; 
+		overflow: auto; 
+		z-index: 999999; 
+	}
+	.formulario-warning li.ui-menu-item { 
+		list-style: none;
+		cursor: pointer; 
+		font-size: 12px; 
+		border-bottom: 1px solid #CCC; 
+	} 
+	/*------------Formulario Success ------------------*/
+	
+	.formulario-success label {
+		width:100% !important;
+	}
+	.formulario-success input, .formulario-success select, .formulario-success textarea{
+		border: 1px solid #D6E9C6 !important;
+		box-shadow: none !important;
+		font-family: 'Comfortaa', cursive !important;
+		
+		
+	}
+	.formulario-success input:disabled,
+	.formulario-success select:disabled {
+		background: #D6E9C6 !important;
+		border: 1.5px solid #D6E9C6 !important;
+		opacity:0.5;
+	}
+	.formulario-success .ui-autocomplete-input { 
+		padding: 1px; 
+		border-radius:4px; 
+		background: #FFF; 
+		width:90%; 
+		height:30px; 
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075); 
+		border-top-right-radius:0px;
+		border-bottom-right-radius:0px;
+	} 
+	.formulario-success .ui-button{ 
+		background:#DFF0D8; 
+		height:30px;
+		width:9%;
+		border-radius:4px; 
+		position: relative; 
+		bottom:1px;
+		border-top-left-radius:0px;
+		border-bottom-left-radius:0px;
+		border: 1px solid #DFF0D8 !important;
+	}
+	.formulario-success .ui-button:before { 
+		content: "\f0c9"; font-family: FontAwesome; 
+		font-style: normal; 
+		font-weight: normal; 
+		text-decoration: inherit; 
+		color: #608c4e; 
+		padding:5px 0px 5px 5px; 
+		position: absolute; 
+		top: 2.5px; 
+		left: 2.5px; 
+	}
+	.formulario-success .ui-helper-hidden-accessible { display:none; }
+	.formulario-success ul.ui-autocomplete { 
+		border: 1px solid #CCC; 
+		background: #FFF; 
+		width: 600px; 
+		padding: 5px; 
+		height: 150px; 
+		overflow: auto; 
+		z-index: 999999; 
+	}
+	.formulario-success li.ui-menu-item { 
+		list-style: none;
+		cursor: pointer; 
+		font-size: 12px; 
+		border-bottom: 1px solid #CCC; 
+	} 
+	
+	
+/**********************************************************/
+/****************** MULTISELECT AJUSTES *******************/
+/**********************************************************/
+.multiselect{
+	background: #ECEBE9 !important;
+}
+.multiselect-container {
+	width:350px !important;
+}
+.multiselect-container li a{
+	padding-left:40px !important;
+}
+/*--------------------------------------------------------*/
+@media screen {
+	.conteudo { margin: 0 auto; padding: 5px; margin-top: 70px; clear: both; }
+	.logo-print{
+		display:block !important;
+	}
+
+}
+
+@media print {
+	.conteudo { width: 950px; margin: 0 auto; padding: 5px; margin-top: 0; clear: both; }
+	.logo-print{
+		display:none !important;
+	}
+}
+
+.table-min {
+	border-collapse:  collapse;
+	border: 1px solid #CCC;
+	font-size: 11px;
+	width:  100%;
+}
+
+.table-min tr td {
+	padding: 0px;
+	text-align: justify;
+}
+
+.table-min tr th {
+	padding: 4px;
+	text-align: justify;
+	background:#f5f5f5;
+}
+
+.table-min2 {
+		width: 100%;
+		margin: 0 0 10px 0;
+}
+
+.table-min2 tr td {
+		border-collapse:  collapse;
+		border: 1px solid #000 !important;
+		padding: 5px;
+}
+
+.table-min3 {
+		width: 100%;
+		margin: 0 0 10px 0;
+}
+
+.table-min3 tr th  {
+		border-collapse:  collapse;
+		border: 1px solid #000 !important;
+		padding: 5px;
+}
+
+
+.table-min3 tr td  {
+		border-collapse:  collapse;
+		border: 1px solid #000 !important;
+		padding: 7px;
+}
+
+
