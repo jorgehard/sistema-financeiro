@@ -9,8 +9,8 @@ extract($_POST);
 extract($_GET);
 
 //MYSQL
-$link = @mysql_connect("polemicalitoral.com.br", "polemica_financ", "kCLxxt6A5TZn", true);
-mysql_select_db("polemica_financeiro", $link);
+$link = @mysql_connect("host", "user_bd", "senha", true);
+mysql_select_db("bancodados", $link);
 mysql_set_charset('utf8',$link);
 
 if(!$link)
